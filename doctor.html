@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalBloom</title>
+    <link rel="shorcut icon" href="Untitled-1.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="image1_0.jpg" alt="Logo Name"> 
+                <h1>VitalBloom</h1> 
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="HealthConditions.html">Health Tips</a></li>
+                    <li><a href="index.html#about-us">About Us</a></li>
+                    <li><a href="ourservices.html">Services</a></li>
+                    <li><a href="doctor.html">Doctor</a></li>
+                    <li><a href="contact.html" class="btn">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="meet-specialists">
+        <div class="Doctor-container">
+            <h2>Meet Our Specialists</h2>
+            <p>Our team of experienced healthcare professionals is here to help you.</p>
+            <div class="specialist-grid">
+                <div class="specialist" onclick="showSpecialistInfo('generalCheckup')">
+                    <img src="generaldoctor.jpg" alt="General Checkup">
+                    <h3>Dr. Adrian Cruz</h3>
+                    <p>General Checkup</p>
+                </div>
+                <div class="specialist" onclick="showSpecialistInfo('dentalCare')">
+                    <img src="dentistdoctor.jpg" alt="Dental Care">
+                    <h3>Dr. Elena Rivera</h3>
+                    <p>Dental Care</p>
+                </div>
+                <div class="specialist" onclick="showSpecialistInfo('pediatrics')">
+                    <img src="children doctor.jpg" alt="Pediatrics">
+                    <h3>Dr. Sophia Morales</h3>
+                    <p>Pediatrics</p>
+                </div>
+                <div class="specialist" onclick="showSpecialistInfo('cardiology')">
+                    <img src="heart doctor.jpg" alt="Cardiology">
+                    <h3>Dr. Samuel Reyes</h3>
+                    <p>Cardiology</p>
+                </div>
+                <div class="specialist" onclick="showSpecialistInfo('radiology')">
+                    <img src="xray doctor.jpg" alt="Radiology">
+                    <h3>Dr. Marco Diaz</h3>
+                    <p>Radiology</p>
+                </div>
+                <div class="specialist" onclick="showSpecialistInfo('physicalTherapy')">
+                    <img src="physicaltherapy.jpg" alt="Physical Therapy">
+                    <h3>Dr. Maya Santos</h3>
+                    <p>Physical Therapy</p>
+                </div>
+                <div class="specialist" onclick="showSpecialistInfo('maternityCare')">
+                    <img src="Maternity Care.jpg" alt="Maternity Care">
+                    <h3>Dr. Isabella Vargas</h3>
+                    <p>Maternity Care</p>
+                </div>
+            </div>
+        </div>
+        <div id="specialist-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal()">&times;</span>
+                <div id="specialist-details"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content" id="footer-content">
+            <div class="footer-logo">
+                <img src="image1_0.jpg" alt="Logo" class="footer-logo-img">
+                <p class="footer-logo-name">VitalBloom</p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="HealthConditions.html">Health Tips</a></li>
+                    <li><a href="index.html#about-us">About Us</a></li>
+                    <li><a href="ourservices.html">Services</a></li>
+                    <li><a href="doctor.html">Doctor</a></li>
+                    <li><a href="contact.html" class="btn">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 VitalBloom Healthcare Services. Crafted with care by The Digital Health Team.</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

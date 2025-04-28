@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalBloom</title>
+    <link rel="shorcut icon" href="Untitled-1.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="image1_0.jpg" alt="Logo Name"> 
+                <h1>VitalBloom</h1> 
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="HealthConditions.html">Health Tips</a></li>
+                    <li><a href="index.html#about-us">About Us</a></li>
+                    <li><a href="ourservices.html">Services</a></li>
+                    <li><a href="doctor.html">Doctor</a></li>
+                    <li><a href="contact.html" class="btn">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="intro">
+        <div class="intro-content">
+            <h1>Welcome to VitalBloom Health Care</h1>
+            <p>We are more than just a healthcare provider; we are your dedicated partner in achieving optimal well-being. 
+                Our mission is to offer compassionate, personalized care that empowers you to live your healthiest life. With a team of experienced doctors, 
+                nurses, and medical professionals, we provide a comprehensive range of services designed to meet the unique needs of each individual. 
+                Whether you are looking for preventive care, specialized treatments, or wellness guidance, VitalBloom is here to ensure 
+                that your health journey is supported every step of the way. We believe that true health is a balance of mind, body, and spirit, 
+                and we are committed to helping you bloom into your best self.
+            </p>
+            <a href="Appointment.html">
+            <div class="appointment-btn-container">
+                <button class="appointment-btn">Appointment</button>
+            </div>
+        </a>
+            <ul>
+                <li>✔ Get 20% off on every 1st week</li>
+                <li>✔ Expert doctors</li>
+            </ul>
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search Page" id="searchInput">
+                <button class="search-btn" onclick="searchPage()">Search Here</button>
+            </div>
+        </div>
+        <div class="intro-image">
+            <img src="21.jpg" alt="Doctor Image">
+        </div>
+    </section>
+  
+    
+    <section id="patient-feedback">
+        <div class="container">
+            <h2>Our Patient Feedback</h2>
+            <p>At VitalBloom Health Care, we take great pride in the care we provide to our patients. Here's what some of our satisfied patients have to say about their experience with us:</p>
+            
+            <div class="feedback-carousel">
+                <div class="feedback-slide">
+                    <img src="t1.jpg" alt="John D." class="client-photo">
+                    <h4>John D.</h4>
+                    <p>"I had an excellent experience at VitalBloom. The doctors and staff were very attentive and made me feel comfortable throughout my entire visit. 
+                        The facility is top-notch, and I felt well taken care of. I would highly recommend them!"</p>
+                    <p class="from">From: New York</p>
+                </div>
+                
+                <div class="feedback-slide">
+                    <img src="t2.jpg" alt="Sarah P." class="client-photo">
+                    <h4>Sarah P.</h4>
+                    <p>"The maternity care I received at VitalBloom was exceptional. The doctors and nurses were incredibly supportive and knowledgeable. 
+                        They answered all my questions and made sure I was at ease during my pregnancy. Truly grateful!"</p>
+                    <p class="from">From: Los Angeles</p>
+                </div>
+                
+                <div class="feedback-slide">
+                    <img src="t3.jpg" alt="Michael L." class="client-photo">
+                    <h4>Michael L.</h4>
+                    <p>"I've been going to VitalBloom for physical therapy, and I’m impressed with their personalized approach. 
+                    The therapists are skilled and compassionate. I feel much better and can continue my daily activities without pain!"</p>
+                    <p class="from">From: Chicago</p>
+                </div>
+                
+                <div class="feedback-slide">
+                    <img src="t4.jpg" alt="Emma W." class="client-photo">
+                    <h4>Emma W.</h4>
+                    <p>"My son has been receiving pediatric care here for years. 
+                        The pediatricians at VitalBloom are exceptional—they listen carefully and make sure every visit is comfortable for him. 
+                        I trust them completely with his health!"</p>                   
+                    <p class="from">From: Miami</p>
+                </div>
+            </div>
+            <div class="dots-container">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to VitalBloom Health Care, where your health is our priority. We are dedicated to providing compassionate, comprehensive, and accessible health care services to individuals and families. Our team of experienced professionals is committed to delivering the highest quality care to help you achieve optimal health and well-being.</p>
+            
+            <h3>Our Mission</h3>
+            <p>At VitalBloom, we strive to offer top-tier health care services, ensuring our patients receive personalized treatment in a comfortable and caring environment. Our mission is to foster healthy living, empower patients, and enhance the overall health experience.</p>
+            
+            <h3>Our Values</h3>
+            <ul>
+                <li><strong>Compassion:</strong> We care deeply about our patients and treat them with empathy and kindness.</li>
+                <li><strong>Excellence:</strong> We are committed to providing exceptional care with the highest standards in medical practice.</li>
+                <li><strong>Integrity:</strong> We uphold honesty, transparency, and ethical practices in everything we do.</li>
+                <li><strong>Innovation:</strong> We embrace the latest medical technologies and treatment methods to ensure the best outcomes.</li>
+                <li><strong>Patient-Centered Care:</strong> We put our patients at the heart of everything we do, always prioritizing their needs and preferences.</li>
+            </ul>
+            
+            <h3>Why Choose VitalBloom?</h3>
+            <p>With years of experience in the healthcare industry, VitalBloom is trusted by thousands of patients for providing high-quality care. Whether you're looking for routine check-ups, specialized treatments, or urgent medical care, our team is here to guide you on your journey to better health.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content" id="footer-content">
+            <div class="footer-logo">
+                <img src="image1_0.jpg" alt="Logo" class="footer-logo-img">
+                <p class="footer-logo-name">VitalBloom</p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="HealthConditions.html">Health Tips</a></li>
+                    <li><a href="index.html#about-us">About Us</a></li>
+                    <li><a href="ourservices.html">Services</a></li>
+                    <li><a href="doctor.html">Doctor</a></li>
+                    <li><a href="contact.html" class="btn">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 VitalBloom Healthcare Services. Crafted with care by The Digital Health Team.</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        let slideIndex = 0;
+        function showSlides() {
+            const slides = document.querySelectorAll(".feedback-slide");
+            const dots = document.querySelectorAll(".dot");
+            slides.forEach(slide => slide.style.display = "none");
+            dots.forEach(dot => dot.classList.remove("active"));
+            slides[slideIndex].style.display = "flex";  
+            dots[slideIndex].classList.add("active");   
+            slideIndex++;
+            if (slideIndex >= slides.length) {
+                slideIndex = 0;
+            }
+        }
+        setInterval(showSlides, 3000);
+        showSlides(); 
+        window.currentSlide = function(n) {
+            slideIndex = n;
+            showSlides();
+        };
+    });
+    </script>
+
+</body>
+</html>

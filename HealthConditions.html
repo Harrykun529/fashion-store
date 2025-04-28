@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalBloom</title>
+    <link rel="shorcut icon" href="Untitled-1.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="image1_0.jpg" alt="Logo Name"> 
+                <h1>VitalBloom</h1> 
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="HealthConditions.html">Health Tips</a></li>
+                    <li><a href="index.html#about-us">About Us</a></li>
+                    <li><a href="ourservices.html">Services</a></li>
+                    <li><a href="doctor.html">Doctor</a></li>
+                    <li><a href="contact.html" class="btn">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="health-tips" class="section">
+        <div class="container">
+          <h2 class="section-title">General Health Tips</h2>
+          <div class="tips">
+            <div class="tip-card">
+              <img src="stayhydrated.jpg" alt="Stay Hydrated">
+              <h3>Stay Hydrated</h3>
+              <p>Drink at least 8 glasses of water daily to keep your body functioning well.</p>
+            </div>
+            <div class="tip-card">
+              <img src="exercise.jpg" alt="Exercise Regularly">
+              <h3>Exercise Regularly</h3>
+              <p>Engage in at least 30 minutes of physical activity daily to maintain good health.</p>
+            </div>
+            <div class="tip-card">
+              <img src="eatbalance.jpg" alt="Eat Balanced Meals">
+              <h3>Eat Balanced Meals</h3>
+              <p>Include vegetables, fruits, lean proteins, and whole grains in your diet.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="common-illnesses" class="section alt-bg">
+        <div class="cl-container">
+          <h2 class="section-title">Common Illnesses & Prevention</h2>
+          <p class="section-titles">Select an illness to learn tips and prevention strategies:</p>
+          <ul id="illness-list">
+            <li onclick="showTips('Cold')">Cold and Flu</li>
+            <li onclick="showTips('Diabetes')">Diabetes</li>
+            <li onclick="showTips('Hypertension')">Hypertension</li>
+            <li onclick="showTips('Obesity')">Obesity</li>
+            <li onclick="showTips('Heart Disease')">Heart Disease</li>
+            <li onclick="showTips('Asthma')">Asthma</li>
+            <li onclick="showTips('Kidney Disease')">Kidney Disease</li>
+            <li onclick="showTips('Cancer Prevention')">Cancer Prevention</li>
+            <li onclick="showTips('Mental Health')">Mental Health</li>
+          </ul>
+          <div id="tips-display">
+            <h3>Cold and Flu</h3>
+            <p><strong>Symptoms:</strong> Runny nose, sore throat, cough, fever.</p>
+            <p><strong>Tips to Avoid:</strong> Wash your hands frequently, avoid close contact with infected people, and get vaccinated.</p>
+            <p><strong>Prevention:</strong> Drink plenty of fluids, rest, and eat healthy to strengthen your immune system.</p>
+          </div>
+        </div>
+      </section>
+      <section id="exercise-tips" class="section">
+        <div class="excercise-container">
+          <h2 class="section-title">Recommended Exercises</h2>
+          <div class="home-exercises">
+            <h3>Exercises You Can Do At Home</h3>
+            <div class="exercises">
+              <div class="exercise-card">
+                <img src="squats.jpg" alt="Squats">
+                <h3>Squats</h3>
+                <p>A simple exercise for strengthening the legs and glutes. Do 3 sets of 15 repetitions.</p>
+              </div>
+              <div class="exercise-card">
+                <img src="hulahoop.jpg" alt="Hula Hoop">
+                <h3>Hula Hoop</h3>
+                <p>A fun and effective way to burn calories, strengthen the body, and improve flexibility.</p>
+              </div>
+              <div class="exercise-card">
+                <img src="walk.jpg" alt="Walking">
+                <h3>Walking</h3>
+                <p>Perfect for beginners. Walk at least 30 minutes daily to improve cardiovascular health and reduce stress.</p>
+              </div>
+            </div>
+          </div>
+          <div class="outdoor-exercises">
+            <h3>Outdoor Exercises</h3>
+            <div class="exercises">
+              <div class="exercise-card">
+                <img src="jog.jpg" alt="Jogging">
+                <h3>Jogging</h3>
+                <p>Jog in the morning or afternoon. This helps improve cardiovascular health and reduces stress.</p>
+              </div>
+              <div class="exercise-card">
+                <img src="volley.jpg" alt="Volleyball">
+                <h3>Volleyball</h3>
+                <p>Play volleyball in the backyard or on the beach. It helps build strength and coordination.</p>
+              </div>
+              <div class="exercise-card">
+                <img src="basketball.jpg" alt="Basketball">
+                <h3>Basketball</h3>
+                <p>Play basketball with family or friends. It helps strengthen muscles and improve endurance.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="disease-types" class="section alt-bg">
+        <div class="diseasetypes-container">
+          <h2 class="section-title">Types of Diseases</h2>
+          <div class="disease-categories">
+            <div class="disease-card">
+              <h3>Infectious Diseases</h3>
+              <p>Caused by bacteria, viruses, fungi, or parasites. Examples include tuberculosis, malaria, and COVID-19.</p>
+            </div>
+            <div class="disease-card">
+              <h3>Chronic Diseases</h3>
+              <p>Long-term illnesses like diabetes, heart disease, and hypertension. Usually caused by lifestyle factors.</p>
+            </div>
+            <div class="disease-card">
+              <h3>Hereditary Diseases</h3>
+              <p>Genetically passed from parents to children. Examples include sickle cell anemia and cystic fibrosis.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="mental-health" class="section">
+        <div class="container">
+          <h2 class="section-title">Mental Health Awareness</h2>
+          <div class="mental-health-tips">
+            <div class="tip-card">
+              <img src="med.jpg" alt="Meditation">
+              <h3>Meditation</h3>
+              <p>Practice mindfulness or meditation for at least 10 minutes each day to reduce stress and improve focus.</p>
+            </div>
+            <div class="tip-card">
+              <img src="sleep.jpg" alt="Sleep Well">
+              <h3>Sleep Well</h3>
+              <p>Ensure you get 7-9 hours of sleep each night to boost mental and physical health.</p>
+            </div>
+            <div class="tip-card">
+              <img src="talk.jpg" alt="Talk to Someone">
+              <h3>Talk to Someone</h3>
+              <p>Don't hesitate to talk to a friend, family member, or a professional if you're feeling overwhelmed.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="healthy-recipes" class="section alt-bg">
+        <div class="container">
+          <h2 class="section-title" style="color: white;">Healthy Recipes</h2>
+          <div class="recipes">
+            <div class="recipe-card">
+              <img src="healthy.jpeg" alt="Healthy Salad">
+              <h3>Healthy Salad</h3>
+              <p>A simple and nutritious salad packed with leafy greens, fruits, and a light vinaigrette.</p>
+            </div>
+            <div class="recipe-card">
+              <img src="fruit.jpg" alt="Fruit Smoothie">
+              <h3>Fruit Smoothie</h3>
+              <p>Blend your favorite fruits with yogurt for a healthy, refreshing drink.</p>
+            </div>
+            <div class="recipe-card">
+              <img src="grilled-chicken.jpg" alt="Grilled Chicken">
+              <h3>Grilled Chicken</h3>
+              <p>Lean grilled chicken breast served with a side of roasted vegetables for a high-protein meal.</p>
+            </div>
+            <div class="recipe-card">
+              <img src="Quinoa-Bowl-4-scaled.jpg" alt="Quinoa Bowl">
+              <h3>Quinoa Bowl</h3>
+              <p>A nutrient-dense bowl of quinoa mixed with vegetables, chickpeas, and a tahini dressing.</p>
+            </div>
+            <div class="recipe-card">
+              <img src="overnight-oats-480x270.jpg" alt="Overnight Oats">
+              <h3>Overnight Oats</h3>
+              <p>Prepare this healthy breakfast the night before, using oats, chia seeds, and your favorite toppings.</p>
+            </div>
+            <div class="recipe-card">
+              <img src="Bean-avocado-toast-3.jpg" alt="Avocado Toast">
+              <h3>Avocado Toast</h3>
+              <p>Whole-grain toast topped with mashed avocado, olive oil, and a sprinkle of red pepper flakes.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="habits-tracker" class="section">
+        <div class="container">
+          <h2 class="section-title">Healthy Habits Tracker</h2>
+          <p>Track your daily healthy habits to stay on track with your wellness goals.</p>
+          <div class="tracker">
+            <label for="water-intake">Water Intake (Glasses):</label>
+            <input type="number" id="water-intake" min="0" placeholder="Enter glasses of water" />
+            <label for="exercise-time">Exercise (Minutes):</label>
+            <input type="number" id="exercise-time" min="0" placeholder="Enter exercise minutes" />
+            <label for="sleep-hours">Sleep (Hours):</label>
+            <input type="number" id="sleep-hours" min="0" placeholder="Enter hours of sleep" />
+            <button onclick="trackHabits()">Track</button>
+          </div>
+        </div>
+      </section>
+      <section id="faq" class="section alt-bg">
+        <div class="container">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <div class="faq-item">
+            <h3>How much water should I drink per day?</h3>
+            <p>It’s recommended to drink at least 8 glasses (2 liters) of water per day to stay hydrated.</p>
+          </div>
+          <div class="faq-item">
+            <h3>What is the best exercise for weight loss?</h3>
+            <p>Cardio exercises like running, cycling, and swimming are effective for burning calories and losing weight.</p>
+          </div>
+          <div class="faq-item">
+            <h3>How can I manage stress?</h3>
+            <p>Meditation, physical exercise, and talking to a friend or therapist can help reduce stress.</p>
+          </div>
+        </div>
+      </section>
+    <footer>
+        <div class="footer-content" id="footer-content">
+            <div class="footer-logo">
+                <img src="image1_0.jpg" alt="Logo" class="footer-logo-img">
+                <p class="footer-logo-name">VitalBloom</p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="HealthConditions.html">Health Tips</a></li>
+                  <li><a href="index.html#about-us">About Us</a></li>
+                  <li><a href="ourservices.html">Services</a></li>
+                  <li><a href="doctor.html">Doctor</a></li>
+                  <li><a href="contact.html" class="btn">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 VitalBloom Healthcare Services. Crafted with care by The Digital Health Team.</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

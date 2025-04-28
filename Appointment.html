@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalBloom</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="image1_0.jpg" alt="Logo Name"> 
+                <h1>VitalBloom</h1> 
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="HealthConditions.html">Health Tips</a></li>
+                    <li><a href="index.html#about-us">About Us</a></li>
+                    <li><a href="ourservices.html">Services</a></li>
+                    <li><a href="doctor.html">Doctor</a></li>
+                    <li><a href="contact.html" class="btn">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="make-appointment">
+        <div class="appointment-container">
+            <h2>Make an Appointment</h2>
+            <p>Please fill out the form below, and we’ll get back to you shortly.</p>
+            <form id="appointment-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="full-name" id="label-name">Full Name</label>
+                    <input type="text" id="full-name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email-address" id="label-email">Email Address</label>
+                    <input type="email" id="email-address" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone-number" id="label-phone">Phone Number</label>
+                    <input type="tel" id="phone-number" name="phone" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="appointment-date" id="label-date">Preferred Date</label>
+                    <input type="date" id="appointment-date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="doctor-selection" id="label-doctor">Select a Doctor</label>
+                    <select id="doctor-selection" name="doctor" required>
+                        <option value="">--Please Select a Doctor--</option>
+                        <option value="generalCheckup">General Checkup</option>
+                        <option value="dentalCare">Dental Care</option>
+                        <option value="pediatrics">Pediatrics</option>
+                        <option value="cardiology">Cardiology</option>
+                        <option value="radiology">Radiology</option>
+                        <option value="physicalTherapy">Physical Therapy</option>
+                        <option value="maternityCare">Maternity Care</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message-input" id="label-message">Message (Optional)</label>
+                    <textarea id="message-input" name="message" placeholder="Enter any additional information" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit Appointment</button>
+            </form>
+            <div id="doctor-message"></div>
+        </div>
+    </section>
+<footer>
+    <div class="footer-content" id="footer-content">
+        <div class="footer-logo">
+            <img src="image1_0.jpg" alt="Logo" class="footer-logo-img">
+            <p class="footer-logo-name">VitalBloom</p>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="HealthConditions.html">Health Tips</a></li>
+                <li><a href="index.html#about-us">About Us</a></li>
+                <li><a href="ourservices.html">Services</a></li>
+                <li><a href="doctor.html">Doctor</a></li>
+                <li><a href="contact.html" class="btn">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 VitalBloom Healthcare Services. Crafted with care by The Digital Health Team.</p>
+    </div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
